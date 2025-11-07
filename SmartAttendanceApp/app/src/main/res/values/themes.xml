@@ -1,0 +1,39 @@
+<resources>
+    <style name="Theme.SmartAttendanceApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/upb_blue</item>
+        <item name="colorPrimaryContainer">@color/upb_blue_light</item>
+        <item name="colorOnPrimary">@color/upb_text_light</item>
+        <item name="android:statusBarColor">@color/upb_blue</item>
+        <item name="android:navigationBarColor">@color/white</item>
+
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+
+
+
+        <item name="shapeAppearanceMediumComponent">@style/Shape.Rounded</item>
+        <item name="materialButtonStyle">@style/Btn.Primary</item>
+        <item name="textAppearanceTitleLarge">@style/Text.Title</item>
+        <item name="textAppearanceBodyMedium">@style/Text.Body</item>
+    </style>
+
+    <style name="Shape.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/radius_16</item>
+    </style>
+
+    <style name="Btn.Primary" parent="Widget.Material3.Button">
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">@dimen/radius_16</item>
+    </style>
+
+    <style name="Text.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/upb_text_dark</item>
+    </style>
+
+    <style name="Text.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/upb_text_dark</item>
+    </style>
+</resources>

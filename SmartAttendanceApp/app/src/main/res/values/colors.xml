@@ -1,0 +1,21 @@
+<resources>
+
+    <color name="upb_blue">#0B3A8E</color>
+    <color name="upb_blue_2">#1565C0</color>
+    <color name="upb_blue_light">#E8F0FF</color>
+    <color name="upb_surface">#F6F7F9</color>
+    <color name="upb_text_dark">#1E293B</color>
+    <color name="upb_text_light">#FFFFFF</color>
+    <color name="upb_success">#12B76A</color>
+    <color name="upb_danger">#EF4444</color>
+    <color name="divider">#E5E7EB</color>
+
+
+    <color name="purple_200">@color/upb_blue_light</color>
+    <color name="purple_500">@color/upb_blue</color>
+    <color name="purple_700">@color/upb_blue_2</color>
+    <color name="teal_200">@color/upb_blue_light</color>
+    <color name="teal_700">@color/upb_blue</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmartAttendanceApp</string>
+    <string name="login_title">UPB Attendance</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="dashboard_title">Dashboard Absensi</string>
+    <string name="btn_checkin">ABSEN MASUK</string>
+    <string name="btn_checkout">ABSEN KELUAR</string>
+    <string name="label_checkin_time">Waktu Masuk:</string>
+    <string name="label_checkout_time">Waktu Keluar:</string>
+</resources>
